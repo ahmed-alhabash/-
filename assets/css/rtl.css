@@ -1,0 +1,38 @@
+.game .pages-links{
+ position: absolute;
+ left: 83%;
+}
+
+.game .title{
+    left: 47%;
+}
+
+
+
+
+
+@media( max-width: 768px){
+    .game .pages-links{
+        position: static;
+        background: black;
+        height: 100vh;
+    }
+    .game .pages-links li{
+        justify-content: center;
+    }
+    .game .pages-links li a,
+    .game .pages-links li i{
+        width: 50%;
+    }
+    .game .pages-links .logo {
+        width: 146px;
+        padding-bottom: 22px;
+        margin: 0 auto;
+        padding-top: 23px;
+    }
+    .game .title,
+    .game .overlay,
+    .game .video video{
+        display: none;
+    }
+}
